@@ -25,7 +25,7 @@ public class NodoArbol {
 	}
 	
 	void agregarHijo(int dato ) {
-		
+		hijos.insertar(new NodoArbol(dato));
 	}
 	
 	boolean esHijo(int dato) {
